@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/2b5809a42f.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" class="c" />
     <title>Chats | KaKao Clone</title>
   </head>
   <body>
@@ -42,22 +43,21 @@
 
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat">
-         
+        <li class="chats__chat chat">
           <a href="chat.html">
-          <div class="char__column">
-            <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-
-            <div class="chat__content">
-              <span class="chat__username">Lynn</span>
-              <span class="chat__preview">Going home</span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">Lynne</span>
+                  <span class="friend__bottom-text">Going home!</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">March 8</span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
-        </a>
-
+          </a>
         </li>
       </ul>
     </main>
@@ -70,9 +70,10 @@
           ></a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i
-          ></a>
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comment"></i>
+          </a>
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">
@@ -86,5 +87,9 @@
         </li>
       </ul>
     </nav>
+
+    <div class="bigScreen">
+      <span class="bigScreen__text">please make your screen small!!</span>
+    </div>
   </body>
 </html>

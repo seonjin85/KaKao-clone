@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/2b5809a42f.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | KaKao Clone</title>
   </head>
   <body>
@@ -37,8 +38,8 @@
       </div>
     </header>
 
-    <main class="firends">
-      <header class="friends_header">
+    <main class="friends">
+      <header class="friends__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
@@ -50,11 +51,11 @@
         </div>
       </header>
 
-      <div class="friends_plus">
+      <div class="friends__plus">
         <h5 class="friends__title">Plus Friend</h5>
-        <div class="friend__column">
-          <div class="friends__friend friend">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">Plus Friend</span>
             </div>
@@ -64,17 +65,40 @@
 
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend friend">
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">Miky mouse</span>
-              <span class="friend__status">hello miky!</span>
+              <span class="friend__name"> mikey~ </span>
+              <span class="friend__status">
+                 seonjin85@gmail.com
+              </span>
             </div>
           </div>
           <div class="friend__column">
-            <div class="friend__now--listening">
-              <span>FTISLAND</span>
+            <div class="friend__now-listening">
+              <span>
+                FTISLAND (FT NomadCoders)
+              </span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> mikey2~ </span>
+              <span class="friend__status">
+                 seonjin85@gmail.com
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                FTISLAND2 (FT NomadCoders)
+              </span>
               <i class="fas fa-play"></i>
             </div>
           </div>
@@ -106,5 +130,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">please make your screen small!!</span>
+    </div>
   </body>
 </html>
